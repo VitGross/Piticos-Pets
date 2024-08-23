@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    background-color: #BC6C25;
+    padding: 20px;
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    position: relative;
+
+    background-color: #FEFAE0;
+
+}
+
+div{
+    padding: 40px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+
+h1 {
+    color: #BC6C25;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #BC6C25;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #BC6C25;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    color: #CD8742;
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+a {
+    color: #BC6C25;
+    
+}
+
+strong{
+    color: #BC6C25;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+figcaption {
+    font-size: 15px;
+    color: #DDA15E;
+}
+
+h2 {
+    color: #BC6C25;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #BC6C25;
+    padding-bottom: 10px;
+}
+
+footer{
+    color: #BC6C25;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+}
+
+.diferenciais{
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #BC6C25;
+}
+
+.texto-dos-diferenciais{
+    text-align: justify;
+    color:#FEFAE0
+}
+
+.negrito-dos-diferenciais{
+    text-align: center;
+    color:#FEFAE0
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p, ul li {
+        font-size: 16px;
+    }
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 17px;
+    }
+
+    p, ul li {
+        font-size: 15px;
+    }
+
+    body {
+        padding: 5px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
